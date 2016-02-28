@@ -1,3 +1,4 @@
+
 *{
   box-sizing:border-box;
   margin: 0;
@@ -42,8 +43,8 @@ p{ font-size: 100%;}
      /*width: 25%;*/ 
      width: 150px; 
      position: absolute !important; 
-     right: 0px !important; 
-     top: 0px !important; 
+     right: -1px !important; 
+     top: -1px !important; 
      height: 30px; 
      font-size: 75%; 
      font-weight: bold; 
@@ -97,20 +98,27 @@ p{ font-size: 100%;}
              padding: 1.5%;
              position: relative !important;
            }
+ #chicken > p{ margin-top: 7.5%;}
+ #pork_chop > p{ margin-top: 7.5%;}
+ #steak > p{ margin-top: 7.5%;}
 
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 .col-md-3  { width: 45.8% !important;}
  #steak{ width: 94.5% !important; margin-top: 20px;}
+ #chicken > p{ margin-top: 7.5%;}
+ #pork_chop > p{ margin-top: 7.5%;}
+ #steak > p{ margin-top: 7.5%;}
+
 }
 
 @media(max-width: 767px){
   h1{ width: 50% !important;}
  .col-md-3  { width: 90% !important;margin-top: 20px; }
  #steak{ width: 90% !important; margin-top: 20px;}
- #chicken > p{ margin-top: 7%;}
- #pork_chop > p{ margin-top: 7%;}
- #steak > p{ margin-top: 7%;}
+ #chicken > p{ margin-top: 7.5%;}
+ #pork_chop > p{ margin-top: 7.5%;}
+ #steak > p{ margin-top: 7.5%;}
 
 }
