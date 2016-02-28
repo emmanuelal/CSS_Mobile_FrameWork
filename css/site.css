@@ -35,7 +35,21 @@ p{ font-size: 100%;}
 .col-md-6  { width:50%; float: left;  }
 .col-md-12 { width:100%; float: left;}
 
+#title{
+     border: 1px solid black; 
+     text-align: center; 
+     padding:7px; 
+     /*width: 25%;*/ 
+     width: 150px; 
+     position: absolute !important; 
+     right: 0px !important; 
+     top: 0px !important; 
+     height: 30px; 
+     font-size: 75%; 
+     font-weight: bold; 
+     margin-bottom: 2%;
 
+}
 #chicken { 
   background:#A52A2A; 
   color:#fff; 
@@ -45,51 +59,43 @@ p{ font-size: 100%;}
 
 #chicken > h2 { 
    background:pink; 
-   position: absolute;
    width: 30%;
    text-align: center;
    text-transform: uppercase;
-   left:295px;
-   top:0px;
+   
 
 } 
-#chicken > p{ margin-top: 4%;}
+#chicken > p{ margin-top: 5%;}
 
 #pork_chop {background:#5F9EA0; border:1px solid #550000; color: #fff;}
 #pork_chop > h2 { 
       background:yellow; color: #000;
-      position: absolute;
       width: 30%;
       text-align: center;
       text-transform: uppercase;
-      left:295px;
-      top:0px;
       border: thin solid #5F9EA4;
     }
-#pork_chop > p{ margin-top: 4%;}
+#pork_chop > p{ margin-top: 5%;}
 
 #steak{background: orange; border: 1px solid #5E9732; color: #fff;}
 
 #steak > h2 { 
   background:navy; color:#fff; 
-  position: absolute;
   width: 30%;
   text-align: center;
   text-align: center;
   text-transform: uppercase;
-  left:295px;
-  top:0px;
 }
-#steak > p{ margin-top: 4%;}
+#steak > p{ margin-top: 5%;}
 
 
 /*********** Tablet View *******************/
 @media (min-width: 992px){
-.col-md-3  { width: 30% !important;
+.col-md-3  { width: 30.7% !important;
              float: left;
              margin-left: 25px;
              padding: 1.5%;
-             position: relative;
+             position: relative !important;
            }
 
 }
@@ -101,6 +107,10 @@ p{ font-size: 100%;}
 
 @media(max-width: 767px){
   h1{ width: 50% !important;}
- .col-md-3  { width: 90% !important;margin-top: 20px;}
+ .col-md-3  { width: 90% !important;margin-top: 20px; }
  #steak{ width: 90% !important; margin-top: 20px;}
+ #chicken > p{ margin-top: 7%;}
+ #pork_chop > p{ margin-top: 7%;}
+ #steak > p{ margin-top: 7%;}
+
 }
